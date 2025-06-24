@@ -29,10 +29,10 @@ public class sqNonDecresingArray {
         Scanner sc = new Scanner(System.in);
         int size = sc.nextInt();
 
-         if (size < 0) {
-            System.out.println("Array size cannot be negative.");
-            return;
-        }
+        // if (size < 0) {
+        //     System.out.println("Array size cannot be negative.");
+        //     return;
+        // }
 
         int arr[] = new int[size];
 
