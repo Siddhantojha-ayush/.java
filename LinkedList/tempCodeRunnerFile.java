@@ -1,2 +1,2 @@
-3);
-        // ll.printll();
+ex(3);
+        // System.out.println(deleted.data);
