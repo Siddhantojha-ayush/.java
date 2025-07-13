@@ -101,28 +101,16 @@ public class classLinkedList {
 
     public static void main(String[] args) {
         linkedList ll = new linkedList();
-        // ll.printll();
+        ll.insertAtEnd(3);
         ll.insertAtEnd(4);
+        ll.insertAtEnd(5);
+        ll.insertAtEnd(6);
         ll.insertAtEnd(7);
+        ll.insertAtEnd(8);
+        ll.insertAtEnd(9);
+        ll.insertAtEnd(0);
+        ll.insertAtEnd(2);
         ll.printll();
-        // System.out.println(ll.size());
-        ll.insertAtStart(2);
-        // ll.printll();
-        System.out.println(ll.size());
-        // System.out.println(ll.head);
-        // System.out.println(ll.head.data);
-        // System.out.println(ll.head.next);
-        // System.out.println(ll.head.next.data);
-        ll.insertAtIndex(1, 8);
-        // ll.printll();
-        // System.out.println(ll.size());
-        ll.insertAtIndex(4, 9);
-        ll.printll();
-        // System.out.println(ll.tail.data); // valve is 7 if the exception case is not written
-        // System.out.println(ll.getAt(3));
-        ll.remove(3);
-        ll.printll();
-        System.out.println(ll.tail.data);
-        System.out.println(ll.size());
+        System.out.println(ll.getAt(4));
     }
 }
