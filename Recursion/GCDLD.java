@@ -12,8 +12,8 @@ public class GCDLD{
 	static int gcdld(int x, int y){
 		while(x%y!=0){
 			int rem = x%y;
-			x = rem;
-			y=x;
+			x = y;
+            y = rem;
 		}
 		return y;
 	}
